@@ -16,6 +16,7 @@ return Form (
   <form Enter={Submit}>
       <input value={InputValue} onChange={handleChange} />
     <button type="submit">Enter</button>
+    event.preventDefault();
   </form>
 );
 
